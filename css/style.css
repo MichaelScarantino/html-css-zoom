@@ -8,6 +8,8 @@
 /* COMMON */
 body{
     font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 12px;
 }
 
 .bgr-grey{
@@ -23,8 +25,6 @@ header{
 .header-setup{
     display: flex;
     justify-content: flex-end;
-    color: white;
-    font-size: 12px;
     padding-top: 5px;
 }
 
@@ -37,9 +37,28 @@ header{
 /* MAIN */
 main{
     height: calc(100vh - 160px);
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    background-color: black;
+}
 
-    /* TEST */
-    background-color: pink;
+.single-user{
+    margin: 5px;
+}
+
+.user-windows{
+    position: relative;
+}
+
+.main-icon-user{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    padding: 3px;
+    background-color: rgba(102, 116, 129, 0.7);
 }
 
 /* FOOTER */
