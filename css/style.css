@@ -1,0 +1,49 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.bgr-grey{
+    background-color: #4a4a4a;
+}
+
+/* HEADER */
+header{
+    height: 80px;
+    background-color: black;
+}
+
+.header-setup{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.header-button{
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+/* MAIN */
+main{
+    height: calc(100vh - 160px);
+
+    /* TEST */
+    background-color: pink;
+}
+
+/* FOOTER */
+footer{
+    height: 80px;
+    background-color: lightgreen;
+}
